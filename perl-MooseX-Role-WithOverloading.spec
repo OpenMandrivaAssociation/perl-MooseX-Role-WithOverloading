@@ -18,7 +18,12 @@ BuildRequires: perl(aliased)
 BuildRequires: perl(namespace::autoclean)
 BuildRequires: perl(namespace::clean)
 BuildRequires: perl-devel
+
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
+
+Requires: perl(aliased)
+Requires: perl(namespace::autoclean)
+Requires: perl(namespace::clean)
 
 %description
 MooseX::Role::WithOverloading allows you to write a the Moose::Role manpage
