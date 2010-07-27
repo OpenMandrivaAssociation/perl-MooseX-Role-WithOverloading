@@ -1,9 +1,9 @@
 %define upstream_name    MooseX-Role-WithOverloading
-%define upstream_version 0.06
+%define upstream_version 0.08
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 1
 
 Summary:    Roles which support overloading
 License:    GPL+ or Artistic
