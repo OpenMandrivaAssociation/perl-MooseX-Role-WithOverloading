@@ -32,6 +32,7 @@ plain the Moose::Role manpages would lose the overloading.
 
 %prep
 %setup -q -n %{upstream_name}-%{upstream_version}
+chmod go+r -R .
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
