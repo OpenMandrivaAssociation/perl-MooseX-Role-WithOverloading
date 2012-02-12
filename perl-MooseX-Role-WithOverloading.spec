@@ -10,6 +10,7 @@ License:    GPL+ or Artistic
 Group:      Development/Perl
 Url:        http://search.cpan.org/dist/%{upstream_name}
 Source0:    http://www.cpan.org/modules/by-module/MooseX/%{upstream_name}-%{upstream_version}.tar.gz
+Source1:	%{name}.rpmlintrc
 
 BuildRequires: perl(Moose)
 BuildRequires: perl(MooseX::Types)
