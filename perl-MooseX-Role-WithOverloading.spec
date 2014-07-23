@@ -13,6 +13,8 @@ Source0:	http://www.cpan.org/modules/by-module/MooseX/%{upstream_name}-%{upstrea
 Source1:	%{name}.rpmlintrc
 
 BuildRequires:	perl(Moose)
+BuildRequires: perl(Test::NoWarnings)
+BuildRequires: perl(Test::CheckDeps)
 BuildRequires:	perl(MooseX::Types)
 BuildRequires:	perl(XSLoader)
 BuildRequires:	perl(aliased)
