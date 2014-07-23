@@ -1,2 +1,4 @@
+removed_sources:
+  MooseX-Role-WithOverloading-0.09.tar.gz: 020407e73083bb54c7b3582e6449319a4c1982ff
 sources:
-  "MooseX-Role-WithOverloading-0.09.tar.gz": 020407e73083bb54c7b3582e6449319a4c1982ff
+  MooseX-Role-WithOverloading-0.13.tar.gz: 92a040c95c65e2288965c31399754954ac3364f3
